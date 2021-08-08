@@ -89,6 +89,7 @@ body {
   color: var(--main-bg-color);
   font-family: "Space Mono", monospace;
   font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
 .footer {
