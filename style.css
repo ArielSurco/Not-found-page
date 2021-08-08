@@ -81,6 +81,35 @@ body {
   letter-spacing: -0.035rem;
 }
 
+.bad-news__button {
+  margin-top: 65px;
+  width: 216px;
+  height: 68px;
+  background-color: var(--black);
+  color: var(--main-bg-color);
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.footer {
+  margin-top: 115px;
+  height: 40px;
+  text-align: center;
+}
+
+.author {
+  color: var(--light-gray);
+  font-family: Montserrat, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.author--username {
+  color: inherit;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .bad-news__text {
     font-size: 2.4rem;
